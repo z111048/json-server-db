@@ -1,55 +1,1939 @@
 {
-  "users": [
+  "teaTypes": [
     {
       "id": 1,
-      "username": "exampleUser",
-      "password": "hashedPassword",
-      "email": "example@email.com",
-      "favorites": {
-        "drinks": [1, 3],
-        "shops": [2, 4]
-      }
-    }
-  ],
-  "verification": [
+      "name": "紅茶",
+      "description": "紅茶是全發酵的茶，具有濃厚的風味和高咖啡因含量。"
+    },
     {
-      "userId": 1,
-      "code": "verificationCode",
-      "expiresAt": "timestamp"
+      "id": 2,
+      "name": "綠茶",
+      "description": "綠茶是未發酵的茶，具有清新的味道和較低的咖啡因含量。"
+    },
+    {
+      "id": 3,
+      "name": "奶茶",
+      "description": "奶茶通常是以紅茶為基底，加入牛奶或奶精製成。"
+    },
+    {
+      "id": 4,
+      "name": "烏龍茶",
+      "description": "烏龍茶是半發酵的茶，介於綠茶和紅茶之間，具有獨特的香氣和味道。"
+    },
+    {
+      "id": 5,
+      "name": "冬瓜茶",
+      "description": "冬瓜茶是由冬瓜糖漿和茶葉（通常是綠茶或紅茶）製成的，味道甜美。"
+    },
+    {
+      "id": 6,
+      "name": "麥茶",
+      "description": "麥茶是由烘焙過的麥芽製成，無咖啡因，適合全家飲用。"
+    },
+    {
+      "id": 7,
+      "name": "牛奶",
+      "description": "牛奶不是茶，但經常用作飲料或奶茶的成分。"
+    },
+    {
+      "id": 8,
+      "name": "鮮果汁",
+      "description": "鮮果汁是從新鮮水果榨取的，可用作飲料或作為飲料的一部分。"
     }
   ],
-  "feedbacks": [
+  "ingredients": [
     {
       "id": 1,
-      "userId": 1,
-      "message": "The address of shop 3 is incorrect.",
-      "status": "pending"
-    }
-  ],
-  "news": [
+      "name": "珍珠",
+      "description": "珍珠是由木薯粉製成的，具有Q彈的口感。"
+    },
     {
-      "id": 1,
-      "title": "New Bubble Tea Flavor",
-      "content": "Description",
-      "date": "timestamp"
-    }
-  ],
-  "drinks": [
+      "id": 2,
+      "name": "波霸",
+      "description": "波霸是比珍珠更大的木薯粉球，通常在奶茶中使用。"
+    },
     {
-      "id": 1,
-      "name": "Milk Tea",
-      "ingredients": ["Milk", "Tea"],
-      "shopId": 1,
-      "keyword": ["milk", "tea"]
+      "id": 3,
+      "name": "椰果",
+      "description": "椰果是由椰汁和糖製成，通常用於冰沙或奶茶中。"
+    },
+    {
+      "id": 4,
+      "name": "仙草",
+      "description": "仙草是一種草本植物，經常用於製作甜品或飲料。"
+    },
+    {
+      "id": 5,
+      "name": "布丁",
+      "description": "布丁是一種用牛奶和糖製成的甜品，也可以用作奶茶的配料。"
+    },
+    {
+      "id": 6,
+      "name": "奶蓋",
+      "description": "奶蓋是由鮮奶油和牛奶打發製成，用作飲料的頂層。"
     }
   ],
   "shops": [
     {
       "id": 1,
-      "name": "Shop 1",
-      "address": "123 Example St.",
-      "openingHours": "9:00 AM - 10:00 PM",
-      "menu": [1, 2]
+      "name": "大苑子",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": true,
+      "recommendedProduct": "芒果冰沙/愛文翡翠",
+      "eventPartner": "乖乖聯名",
+      "officialWebsite": "https://www.dayungs.com/",
+      "logo": null
+    },
+    {
+      "id": 2,
+      "name": "麻古茶坊",
+      "uber": true,
+      "foodpanda": false,
+      "hasEvent": false,
+      "recommendedProduct": "芝芝錫蘭紅茶/梅子冰茶",
+      "eventPartner": "X",
+      "officialWebsite": "https://macutea.com.tw/",
+      "logo": null
+    },
+    {
+      "id": 3,
+      "name": "迷客夏",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": true,
+      "recommendedProduct": "伯爵紅茶拿鐵",
+      "eventPartner": "KINGJUN",
+      "officialWebsite": "https://www.milksha.com/index.php",
+      "logo": null
+    },
+    {
+      "id": 4,
+      "name": "五桐號",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": true,
+      "recommendedProduct": "五桐茶",
+      "eventPartner": "DinoTaeng",
+      "officialWebsite": "https://www.wootea.com/",
+      "logo": null
+    },
+    {
+      "id": 5,
+      "name": "50嵐",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": false,
+      "recommendedProduct": "四季春+珍波椰",
+      "eventPartner": "X",
+      "officialWebsite": "http://50lan.com/web/news.asp",
+      "logo": null
+    },
+    {
+      "id": 6,
+      "name": "COMEBUY",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": false,
+      "recommendedProduct": "海神/紅茶拿鐵",
+      "eventPartner": "X",
+      "officialWebsite": "https://www.comebuy2002.com.tw/",
+      "logo": null
+    },
+    {
+      "id": 7,
+      "name": "老賴茶棧",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": false,
+      "recommendedProduct": "老賴紅茶/冬瓜檸檬",
+      "eventPartner": "X",
+      "officialWebsite": "https://www.liketeashop.com/",
+      "logo": null
+    },
+    {
+      "id": 8,
+      "name": "得正",
+      "uber": true,
+      "foodpanda": false,
+      "hasEvent": false,
+      "recommendedProduct": "檸檬春烏龍/芝士奶蓋春烏龍",
+      "eventPartner": "X",
+      "officialWebsite": "https://dejeng.com/",
+      "logo": null
+    },
+    {
+      "id": 9,
+      "name": "茶湯會",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": false,
+      "recommendedProduct": "觀音拿鐵",
+      "eventPartner": "X",
+      "officialWebsite": "https://tw.tp-tea.com/",
+      "logo": null
+    },
+    {
+      "id": 10,
+      "name": "抿茶",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": false,
+      "recommendedProduct": "海鹽奶蓋琥珀烏龍",
+      "eventPartner": "X",
+      "officialWebsite": "https://www.mincha.com.tw/",
+      "logo": null
+    },
+    {
+      "id": 11,
+      "name": "?十八木",
+      "uber": true,
+      "foodpanda": false,
+      "hasEvent": false,
+      "recommendedProduct": "麥湯拿鐵/小時候秘密/新南黑糖牛乳",
+      "eventPartner": "X",
+      "officialWebsite": null,
+      "logo": null
+    },
+    {
+      "id": 12,
+      "name": "可不可",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": false,
+      "recommendedProduct": "春芽冷露/熟成歐蕾",
+      "eventPartner": "X",
+      "officialWebsite": "https://www.kebuke.com/",
+      "logo": null
+    },
+    {
+      "id": 13,
+      "name": "烏弄",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": false,
+      "recommendedProduct": "桂花凍胭脂紅玉",
+      "eventPartner": "X",
+      "officialWebsite": "https://unocha.com.tw/",
+      "logo": null
+    },
+    {
+      "id": 14,
+      "name": "珍煮丹",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": true,
+      "recommendedProduct": "黑糖珍珠鮮奶",
+      "eventPartner": "hahababy",
+      "officialWebsite": "https://www.truedan.com.tw/",
+      "logo": null
+    },
+    {
+      "id": 15,
+      "name": "曼士茶",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": false,
+      "recommendedProduct": "乳酪奶蓋茶(金烏)",
+      "eventPartner": "X",
+      "officialWebsite": "https://www.facebook.com/mansteataiwan/?locale=zh_TW",
+      "logo": null
+    },
+    {
+      "id": 16,
+      "name": "CoCo都可",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": false,
+      "recommendedProduct": "奶茶三兄弟",
+      "eventPartner": "X",
+      "officialWebsite": "https://www.findcoupon.tw/showroom-1081/store/%E6%96%B0%E5%8C%97%E5%B8%82",
+      "logo": null
+    },
+    {
+      "id": 17,
+      "name": "清心",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": false,
+      "recommendedProduct": "烏龍綠茶/烏龍奶茶",
+      "eventPartner": "X",
+      "officialWebsite": "https://www.chingshin.tw/product.php",
+      "logo": null
+    },
+    {
+      "id": 18,
+      "name": "武林茶",
+      "uber": true,
+      "foodpanda": true,
+      "hasEvent": false,
+      "recommendedProduct": "凍春山/甘蔗青",
+      "eventPartner": "X",
+      "officialWebsite": "https://www.wulintea.com/",
+      "logo": null
+    }
+  ],
+  "shopBranches": [
+    {
+      "storeId": 1,
+      "shopId": 1,
+      "branchName": "板橋中山店",
+      "phone": "02-29582567",
+      "businessHours": "10:30~21:00",
+      "address": "新北市板橋區中山路二段185號"
+    },
+    {
+      "storeId": 2,
+      "shopId": 1,
+      "branchName": "新店中正店",
+      "phone": "02-22180112",
+      "businessHours": "09:00~21:00",
+      "address": "新北市新店區中正路495號"
+    },
+    {
+      "storeId": 3,
+      "shopId": 1,
+      "branchName": "永和樂華店",
+      "phone": "02-29257008",
+      "businessHours": "11:30~22:00",
+      "address": "新北市永和區永和路一段146號"
+    },
+    {
+      "storeId": 4,
+      "shopId": 1,
+      "branchName": "土城延和店",
+      "phone": "02-82615000",
+      "businessHours": "10:30~21:30",
+      "address": "新北市土城區延和路37號"
+    },
+    {
+      "storeId": 5,
+      "shopId": 1,
+      "branchName": "土城中央店",
+      "phone": "02-22607222",
+      "businessHours": "10:30~21:00",
+      "address": "新北市土城區中央路二段242號"
+    },
+    {
+      "storeId": 6,
+      "shopId": 1,
+      "branchName": "三峽和平店",
+      "phone": "02-26722836",
+      "businessHours": "10:00~22:00",
+      "address": "新北市三峽區和平街101號"
+    },
+    {
+      "storeId": 7,
+      "shopId": 1,
+      "branchName": "三重五華店",
+      "phone": "02-89858021",
+      "businessHours": "11:00~21:00",
+      "address": "新北市三重區五華街101號"
+    },
+    {
+      "storeId": 8,
+      "shopId": 1,
+      "branchName": "新莊幸福店",
+      "phone": "02-29919175",
+      "businessHours": "10:00~22:00",
+      "address": "新北市新莊區福壽街75號"
+    },
+    {
+      "storeId": 9,
+      "shopId": 1,
+      "branchName": "新莊富國店",
+      "phone": "02-29015565",
+      "businessHours": "10:30~21:30",
+      "address": "新北市新莊區富國路91號"
+    },
+    {
+      "storeId": 10,
+      "shopId": 2,
+      "branchName": "板橋中山店",
+      "phone": "02-29510177",
+      "businessHours": "10:00-21:30",
+      "address": "新北市板橋區中山路二段110號"
+    },
+    {
+      "storeId": 11,
+      "shopId": 2,
+      "branchName": "三重中華店",
+      "phone": "02-29800071",
+      "businessHours": "略",
+      "address": "新北市三重區中華路97號"
+    },
+    {
+      "storeId": 12,
+      "shopId": 2,
+      "branchName": "新莊中原店",
+      "phone": "02-85227722",
+      "businessHours": "略",
+      "address": "新北市新莊區中原路149號"
+    },
+    {
+      "storeId": 13,
+      "shopId": 2,
+      "branchName": "新北蘆洲光華店",
+      "phone": "02-82816926",
+      "businessHours": "略",
+      "address": "新北市蘆洲區光華路126號"
+    },
+    {
+      "storeId": 14,
+      "shopId": 2,
+      "branchName": "新北淡水英專店",
+      "phone": "02-26210668",
+      "businessHours": "略",
+      "address": "新北市淡水區英專路64號"
+    },
+    {
+      "storeId": 15,
+      "shopId": 2,
+      "branchName": "板橋新埔店",
+      "phone": "02-22521880",
+      "businessHours": "略",
+      "address": "新北市板橋區文化路一段321號"
+    },
+    {
+      "storeId": 16,
+      "shopId": 2,
+      "branchName": "永和福和店",
+      "phone": "02-29240178",
+      "businessHours": "略",
+      "address": "新北市永和區福和路229之2號"
+    },
+    {
+      "storeId": 17,
+      "shopId": 2,
+      "branchName": "中和南勢角店",
+      "phone": "02-29466060",
+      "businessHours": "略",
+      "address": "新北市中和區興南路一段41號"
+    },
+    {
+      "storeId": 18,
+      "shopId": 2,
+      "branchName": "三重正義店",
+      "phone": "02-29800881",
+      "businessHours": "略",
+      "address": "新北市三重區正義北路61號"
+    },
+    {
+      "storeId": 19,
+      "shopId": 2,
+      "branchName": "新莊幸福店",
+      "phone": "02-29905959",
+      "businessHours": "略",
+      "address": "新北市新莊區幸福路767號"
+    },
+    {
+      "storeId": 20,
+      "shopId": 2,
+      "branchName": "江翠松柏店",
+      "phone": "02-22500400",
+      "businessHours": "略",
+      "address": "新北市板橋區松柏街37號"
+    },
+    {
+      "storeId": 21,
+      "shopId": 2,
+      "branchName": "中和中和店",
+      "phone": "02-82458641",
+      "businessHours": "略",
+      "address": "新北市中和區中和路34號"
+    },
+    {
+      "storeId": 22,
+      "shopId": 2,
+      "branchName": "新莊富國店",
+      "phone": "02-29029666",
+      "businessHours": "略",
+      "address": "新北市新莊區富國路72號"
+    },
+    {
+      "storeId": 23,
+      "shopId": 2,
+      "branchName": "新莊新泰店",
+      "phone": "02-89928666",
+      "businessHours": "略",
+      "address": "新北市新莊區新泰路214號"
+    },
+    {
+      "storeId": 24,
+      "shopId": 2,
+      "branchName": "板橋四川店",
+      "phone": "02-29525222",
+      "businessHours": "略",
+      "address": "新北市板橋區四川路一段206號"
+    },
+    {
+      "storeId": 25,
+      "shopId": 3,
+      "branchName": "新北板橋華興店",
+      "phone": "02-8951-0587",
+      "businessHours": "10:30～21:30",
+      "address": "新北市板橋區華興街38號"
+    },
+    {
+      "storeId": 26,
+      "shopId": 3,
+      "branchName": "新北新店碧潭店",
+      "phone": "02-29189898",
+      "businessHours": "星期日～四10:00～22:00 星期五～六10:00-22:30",
+      "address": "新北市新店區光明街5號"
+    },
+    {
+      "storeId": 27,
+      "shopId": 3,
+      "branchName": "新北三重店",
+      "phone": "02-8985-9692",
+      "businessHours": "平日：10:30-22:00假日：10:30-22:00",
+      "address": "24151 新北市三重區五華街138號"
+    },
+    {
+      "storeId": 28,
+      "shopId": 3,
+      "branchName": "新北板橋店",
+      "phone": "02-2955-3269",
+      "businessHours": "平日：10:00-22:00假日：10:00-22:00",
+      "address": "22067 新北市板橋區中山路二段114號"
+    },
+    {
+      "storeId": 29,
+      "shopId": 3,
+      "branchName": "新北新莊店",
+      "phone": "02-2276-5634",
+      "businessHours": "平日：10:00-22:00假日：10:00-22:00",
+      "address": "24249 新北市新莊區中平路111號"
+    },
+    {
+      "storeId": 30,
+      "shopId": 3,
+      "branchName": "新北新店店",
+      "phone": "02-2913-6058",
+      "businessHours": "平日：09:00-22:30假日：09:00-22:30",
+      "address": "23145 新北市新店區寶橋路45號"
+    },
+    {
+      "storeId": 31,
+      "shopId": 3,
+      "branchName": "新北板橋四維店",
+      "phone": "02-8259-8555",
+      "businessHours": "平日：10:00-22:00假日：10:00-22:00",
+      "address": "22048 新北市板橋區四維路174-2號"
+    },
+    {
+      "storeId": 32,
+      "shopId": 3,
+      "branchName": "新北蘆洲店",
+      "phone": "02-8282-8670",
+      "businessHours": "平日：10:00-22:30假日：10:00-22:30",
+      "address": "24755 新北市蘆洲區光華路115號"
+    },
+    {
+      "storeId": 33,
+      "shopId": 3,
+      "branchName": "新北板中店",
+      "phone": "02-2272-0003",
+      "businessHours": "平日：10:00-21:30 假日：10:30-21:30",
+      "address": "22054 新北市板橋區中正路271號"
+    },
+    {
+      "storeId": 34,
+      "shopId": 3,
+      "branchName": "新北中原店",
+      "phone": "02-2277-5647",
+      "businessHours": "平日：09:00-22:00假日：09:00-22:00",
+      "address": "24251 新北市新莊區中原路139號"
+    },
+    {
+      "storeId": 35,
+      "shopId": 3,
+      "branchName": "新北淡大店",
+      "phone": "02-2629-5960",
+      "businessHours": "平日：10:00-22:30假日：10:00-22:30",
+      "address": "25148 新北市淡水區北新路182巷56號"
+    },
+    {
+      "storeId": 36,
+      "shopId": 3,
+      "branchName": "新北新店中正店",
+      "phone": "02-2218-8080",
+      "businessHours": "平日：09:00-22:00假日：10:00-22:00",
+      "address": "23141 新北市新店區中正路510-1號"
+    },
+    {
+      "storeId": 37,
+      "shopId": 3,
+      "branchName": "新北輔大店",
+      "phone": "02-2901-7167",
+      "businessHours": "平日：10:00-22:30假日：10:00-22:30",
+      "address": "24255 新北市新莊區中正路516-31號"
+    },
+    {
+      "storeId": 38,
+      "shopId": 3,
+      "branchName": "新北新店安康店",
+      "phone": "02-8666-8399",
+      "businessHours": "平日：10:00-22:00假日：10:00-22:00",
+      "address": "23154 新北市新店區安康路二段148號"
+    },
+    {
+      "storeId": 39,
+      "shopId": 3,
+      "branchName": "新北板橋車站店(櫃位門市)",
+      "phone": "02-2965-4909",
+      "businessHours": "平日：09:00-22:00假日：09:00-22:00",
+      "address": "22041 新北市板橋區縣民大道二段7號"
+    },
+    {
+      "storeId": 40,
+      "shopId": 4,
+      "branchName": "新北 板橋中山店",
+      "phone": "02-29588977",
+      "businessHours": "略",
+      "address": "新北市板橋區中山路一段92號"
+    },
+    {
+      "storeId": 41,
+      "shopId": 4,
+      "branchName": "新北 板橋莒光店",
+      "phone": "02-82536600",
+      "businessHours": "略",
+      "address": "新北市板橋區莒光路26號1樓"
+    },
+    {
+      "storeId": 42,
+      "shopId": 4,
+      "branchName": "新北 板橋埔墘店",
+      "phone": "02-29522518",
+      "businessHours": "略",
+      "address": "新北市板橋區中山路二段167號"
+    },
+    {
+      "storeId": 43,
+      "shopId": 4,
+      "branchName": "新北 板橋中正店",
+      "phone": "02-29600100",
+      "businessHours": "略",
+      "address": "新北市板橋區中正路201號"
+    },
+    {
+      "storeId": 44,
+      "shopId": 4,
+      "branchName": "新北 三重文化北店",
+      "phone": "02-29871260",
+      "businessHours": "略",
+      "address": "新北市三重區文化北路20之一號"
+    },
+    {
+      "storeId": 45,
+      "shopId": 4,
+      "branchName": "新北 淡水英專店",
+      "phone": "02-26250162",
+      "businessHours": "略",
+      "address": "新北市淡水區英專路62號"
+    },
+    {
+      "storeId": 46,
+      "shopId": 4,
+      "branchName": "新北 新店大坪林店",
+      "phone": "02-29107123",
+      "businessHours": "略",
+      "address": "新北市新店區北新路三段156號1樓"
+    },
+    {
+      "storeId": 47,
+      "shopId": 4,
+      "branchName": "新北 新莊中和店",
+      "phone": "02-22760738",
+      "businessHours": "略",
+      "address": "新北市新莊區中和街157號1樓"
+    },
+    {
+      "storeId": 48,
+      "shopId": 4,
+      "branchName": "新北 蘆洲民族店",
+      "phone": "02-22850595",
+      "businessHours": "略",
+      "address": "新北市蘆洲區民族路116號"
+    },
+    {
+      "storeId": 49,
+      "shopId": 4,
+      "branchName": "板橋 中正店",
+      "phone": "02-29600100",
+      "businessHours": "略",
+      "address": "新北市板橋區中正路201號"
+    },
+    {
+      "storeId": 50,
+      "shopId": 4,
+      "branchName": "新北 蘆洲光華店",
+      "phone": "02-22891111",
+      "businessHours": "略",
+      "address": "新北市蘆洲區光華路124號"
+    },
+    {
+      "storeId": 51,
+      "shopId": 4,
+      "branchName": "新北 新莊輔大店",
+      "phone": "02-29081619",
+      "businessHours": "略",
+      "address": "新北市新莊區建國一路15號"
+    },
+    {
+      "storeId": 52,
+      "shopId": 4,
+      "branchName": "新北 新莊新泰店",
+      "phone": "02-29988772",
+      "businessHours": "略",
+      "address": "新北市新莊區新泰路314號"
+    },
+    {
+      "storeId": 53,
+      "shopId": 4,
+      "branchName": "新北 中和環球店",
+      "phone": "02-22223953",
+      "businessHours": "略",
+      "address": "新北市中和區中山路三段101號"
+    },
+    {
+      "storeId": 54,
+      "shopId": 4,
+      "branchName": "新北 三重五華店",
+      "phone": "02-89835568",
+      "businessHours": "略",
+      "address": "新北市三重區五華街144號"
+    },
+    {
+      "storeId": 55,
+      "shopId": 5,
+      "branchName": "台北縣總店",
+      "phone": "2957-2501",
+      "businessHours": "略",
+      "address": "新北市板橋區中山路二段159號"
+    },
+    {
+      "storeId": 56,
+      "shopId": null,
+      "branchName": "新泰店",
+      "phone": "2277-6250",
+      "businessHours": "略",
+      "address": "新北市新莊區新泰路311號"
+    },
+    {
+      "storeId": 57,
+      "shopId": null,
+      "branchName": "三和店",
+      "phone": "2286-1850",
+      "businessHours": "略",
+      "address": "新北市三重區三和路四段205號"
+    },
+    {
+      "storeId": 58,
+      "shopId": null,
+      "branchName": "南勢角店",
+      "phone": "2940-8372",
+      "businessHours": "略",
+      "address": "新北市中和區景新街396-1號"
+    },
+    {
+      "storeId": 59,
+      "shopId": null,
+      "branchName": "福和店",
+      "phone": "2928-7180",
+      "businessHours": "略",
+      "address": "新北市永和區福和路239號"
+    },
+    {
+      "storeId": 60,
+      "shopId": null,
+      "branchName": "板橋文化店",
+      "phone": "8258-5666",
+      "businessHours": "略",
+      "address": "新北市板橋區文化路一段379號"
+    },
+    {
+      "storeId": 61,
+      "shopId": null,
+      "branchName": "五華店",
+      "phone": "2988-7002",
+      "businessHours": "略",
+      "address": "新北市三重區五華街77號"
+    },
+    {
+      "storeId": 62,
+      "shopId": null,
+      "branchName": "新店民權店",
+      "phone": "8219-1133",
+      "businessHours": "略",
+      "address": "新北市新店區民權路123號"
+    },
+    {
+      "storeId": 63,
+      "shopId": null,
+      "branchName": "輔大店",
+      "phone": "2901-8100",
+      "businessHours": "略",
+      "address": "新北市新莊區建國一路30號"
+    },
+    {
+      "storeId": 64,
+      "shopId": null,
+      "branchName": "板橋莒光店",
+      "phone": "2258-5000",
+      "businessHours": "略",
+      "address": "新北市板橋區莒光路14號"
+    },
+    {
+      "storeId": 65,
+      "shopId": null,
+      "branchName": "板橋雙十店",
+      "phone": "2258-0833",
+      "businessHours": "略",
+      "address": "新北市板橋區雙十路二段189號"
+    },
+    {
+      "storeId": 66,
+      "shopId": null,
+      "branchName": "新莊中港店",
+      "phone": "2990-9113",
+      "businessHours": "略",
+      "address": "新北市新莊區中港路335號1樓"
+    },
+    {
+      "storeId": 67,
+      "shopId": null,
+      "branchName": "得和店",
+      "phone": "2940-9115",
+      "businessHours": "略",
+      "address": "新北市永和區得和路396號"
+    },
+    {
+      "storeId": 68,
+      "shopId": null,
+      "branchName": "蘆洲民族店",
+      "phone": "8286-6386",
+      "businessHours": "略",
+      "address": "新北市蘆洲區民族路176號"
+    },
+    {
+      "storeId": 69,
+      "shopId": null,
+      "branchName": "蘆洲中華店",
+      "phone": "2848-9188",
+      "businessHours": "略",
+      "address": "新北市蘆洲區中華街16號"
+    },
+    {
+      "storeId": 70,
+      "shopId": 6,
+      "branchName": "三重長壽",
+      "phone": "02-2977-0630",
+      "businessHours": "略",
+      "address": "新北市三重區長壽街23號-2"
+    },
+    {
+      "storeId": 71,
+      "shopId": 6,
+      "branchName": "三重溪尾",
+      "phone": "02-8983-0630",
+      "businessHours": "略",
+      "address": "新北市三重區溪尾街215號"
+    },
+    {
+      "storeId": 72,
+      "shopId": 6,
+      "branchName": "中和南華",
+      "phone": "02-2242-9042",
+      "businessHours": "略",
+      "address": "新北市中和區南華路16號"
+    },
+    {
+      "storeId": 73,
+      "shopId": 6,
+      "branchName": "中和遠東廣場",
+      "phone": "02-8226-2806",
+      "businessHours": "略",
+      "address": "新北市中和區建八路2號一樓A戶"
+    },
+    {
+      "storeId": 74,
+      "shopId": 6,
+      "branchName": "永和民生",
+      "phone": "02-2941-9706",
+      "businessHours": "略",
+      "address": "新北市永和區民生路24號"
+    },
+    {
+      "storeId": 75,
+      "shopId": 6,
+      "branchName": "永和頂溪",
+      "phone": "02-2921-6989",
+      "businessHours": "略",
+      "address": "新北市永和區永和路二段30號"
+    },
+    {
+      "storeId": 76,
+      "shopId": 6,
+      "branchName": "板橋民治",
+      "phone": "02-2250-3390",
+      "businessHours": "略",
+      "address": "新北市板橋區民治街121號"
+    },
+    {
+      "storeId": 77,
+      "shopId": 6,
+      "branchName": "板橋重慶",
+      "phone": "02-2962-6600",
+      "businessHours": "略",
+      "address": "新北市板橋區重慶路36號"
+    },
+    {
+      "storeId": 78,
+      "shopId": 6,
+      "branchName": "新店大豐",
+      "phone": "02-2910-0052",
+      "businessHours": "略",
+      "address": "新北市新店區大豐路15號"
+    },
+    {
+      "storeId": 79,
+      "shopId": 6,
+      "branchName": "新店中正",
+      "phone": "02-2911-2912",
+      "businessHours": "略",
+      "address": "新北市新店區中正路226號1樓"
+    },
+    {
+      "storeId": 80,
+      "shopId": 6,
+      "branchName": "新店光明",
+      "phone": "02-2912-6660",
+      "businessHours": "略",
+      "address": "新北市新店區光明街270號"
+    },
+    {
+      "storeId": 81,
+      "shopId": 6,
+      "branchName": "輔大文園",
+      "phone": "02-2904-9985",
+      "businessHours": "略",
+      "address": "新北市新莊區中正路510號"
+    },
+    {
+      "storeId": 82,
+      "shopId": 6,
+      "branchName": "新莊西盛",
+      "phone": "02-2203-5556",
+      "businessHours": "略",
+      "address": "新北市新莊區西盛街226號1樓"
+    },
+    {
+      "storeId": 83,
+      "shopId": 6,
+      "branchName": "蘆洲信義",
+      "phone": "02-2848-1219",
+      "businessHours": "略",
+      "address": "新北市蘆洲區信義路279號"
+    },
+    {
+      "storeId": 84,
+      "shopId": 6,
+      "branchName": "蘆洲復興",
+      "phone": "02-2281-5633",
+      "businessHours": "略",
+      "address": "新北市蘆洲區復興路58號"
+    },
+    {
+      "storeId": 85,
+      "shopId": 7,
+      "branchName": "新莊四維店",
+      "phone": "02-22046660",
+      "businessHours": "週一~週日 11:00-00:30",
+      "address": "新北市新莊區四維路159號"
+    },
+    {
+      "storeId": 86,
+      "shopId": 7,
+      "branchName": "中和員山店",
+      "phone": "02-82286778",
+      "businessHours": "週一~週日 11:00-23:00",
+      "address": "新北市中和區民安街14號"
+    },
+    {
+      "storeId": 87,
+      "shopId": 7,
+      "branchName": "板橋莒光店",
+      "phone": "02-22509928",
+      "businessHours": "週日~週四 10:00-22:00 週五~週六 10:00-22:30",
+      "address": "新北市板橋區莒光路7號"
+    },
+    {
+      "storeId": 88,
+      "shopId": 7,
+      "branchName": "泰山明志店",
+      "phone": "02-22970073",
+      "businessHours": "週一~週日 11:00-20:45",
+      "address": "新北市泰山區明志路一段218號"
+    },
+    {
+      "storeId": 89,
+      "shopId": 7,
+      "branchName": "新北蘆洲店",
+      "phone": "02-22838340",
+      "businessHours": "週一~週四 10:30-21:30 週五~週日 10:30-22:00",
+      "address": "新北市蘆洲區光華路161號"
+    },
+    {
+      "storeId": 90,
+      "shopId": 7,
+      "branchName": "三峽老街店",
+      "phone": "02-26722686",
+      "businessHours": "週一~週日 9:15-20:50",
+      "address": "新北市三峽區民權街5號"
+    },
+    {
+      "storeId": 91,
+      "shopId": 7,
+      "branchName": "永和樂華店",
+      "phone": "02-22331966",
+      "businessHours": "週一~週四 11:00-21:30 週五~週日 11:00-22:30",
+      "address": "新北市永和區保平路19號"
+    },
+    {
+      "storeId": 92,
+      "shopId": 7,
+      "branchName": "板橋裕民店",
+      "phone": "02-82537080",
+      "businessHours": "週一~週日 10:30-23:00",
+      "address": "新北市板橋區裕民街57號"
+    },
+    {
+      "storeId": 93,
+      "shopId": 7,
+      "branchName": "板橋湳雅店",
+      "phone": "0905-992992",
+      "businessHours": "週三~週日 11:00-01:00 週一~週二 18:00-01:00",
+      "address": "新北市板橋區南雅南路一段5巷4號"
+    },
+    {
+      "storeId": 94,
+      "shopId": 7,
+      "branchName": "樹林站前店",
+      "phone": "02-2681-5151",
+      "businessHours": "週一~週日 11:00-22:00",
+      "address": "新北市樹林區鎮前街67號"
+    },
+    {
+      "storeId": 95,
+      "shopId": 7,
+      "branchName": "新北三重店",
+      "phone": "02-29888787",
+      "businessHours": "週日~週四 10:00-21:45 週五~周六 10:15-22:45",
+      "address": "新北市三重區五華街110之1號"
+    },
+    {
+      "storeId": 96,
+      "shopId": 7,
+      "branchName": "中和南勢角店",
+      "phone": "02-86689886",
+      "businessHours": "週一~週日 10:00-22:00",
+      "address": "新北市中和區興南路一段92號"
+    },
+    {
+      "storeId": 97,
+      "shopId": 7,
+      "branchName": "土城學府店",
+      "phone": "02-82628808",
+      "businessHours": "週一~週日 10:00-22:00",
+      "address": "新北市土城區學府路一段193號"
+    },
+    {
+      "storeId": 98,
+      "shopId": 7,
+      "branchName": "三重文化店",
+      "phone": "02-29868388",
+      "businessHours": "週日~週四 11:00-21:00 週五~週六 11:00-21:30",
+      "address": "新北市三重區文化北路94號"
+    },
+    {
+      "storeId": 99,
+      "shopId": 8,
+      "branchName": "淡水英專",
+      "phone": "02-26228877",
+      "businessHours": "略",
+      "address": "251新北市淡水區英專路15號"
+    },
+    {
+      "storeId": 100,
+      "shopId": 8,
+      "branchName": "汐止忠孝",
+      "phone": "02-26903392",
+      "businessHours": "略",
+      "address": "221新北市汐止區忠孝東路245號"
+    },
+    {
+      "storeId": 101,
+      "shopId": 8,
+      "branchName": "泰山明志",
+      "phone": "02-29012900",
+      "businessHours": "略",
+      "address": "243新北市泰山區明志路三段209號"
+    },
+    {
+      "storeId": 102,
+      "shopId": 8,
+      "branchName": "樹林中山",
+      "phone": "02-86875007",
+      "businessHours": "略",
+      "address": "238新北市樹林區中山路一段60號"
+    },
+    {
+      "storeId": 103,
+      "shopId": 8,
+      "branchName": "板橋莒光",
+      "phone": "02-89696663",
+      "businessHours": "略",
+      "address": "220新北市板橋區莒光路50號"
+    },
+    {
+      "storeId": 104,
+      "shopId": 8,
+      "branchName": "土城裕民",
+      "phone": "02-82620299",
+      "businessHours": "略",
+      "address": "236新北市土城區裕民路155號"
+    },
+    {
+      "storeId": 105,
+      "shopId": 8,
+      "branchName": "中和環球",
+      "phone": "02-22219830",
+      "businessHours": "略",
+      "address": "235新北市中和區中山路三段125號"
+    },
+    {
+      "storeId": 106,
+      "shopId": 8,
+      "branchName": "三重徐匯",
+      "phone": "02-82839868",
+      "businessHours": "略",
+      "address": "241新北市三重區三和路四段209號1樓"
+    },
+    {
+      "storeId": 107,
+      "shopId": 8,
+      "branchName": "新莊新泰",
+      "phone": "02-29960087",
+      "businessHours": "略",
+      "address": "242新北市新莊區新泰路279號"
+    },
+    {
+      "storeId": 108,
+      "shopId": 8,
+      "branchName": "新店大坪林",
+      "phone": "02-86656100",
+      "businessHours": "略",
+      "address": "231新北市新店區北新路三段101號"
+    },
+    {
+      "storeId": 109,
+      "shopId": 8,
+      "branchName": "新莊輔大",
+      "phone": "02-29015775",
+      "businessHours": "略",
+      "address": "242新北市新莊區建國一路64號"
+    },
+    {
+      "storeId": 110,
+      "shopId": 8,
+      "branchName": "三重正義",
+      "phone": "02-29885010",
+      "businessHours": "略",
+      "address": "241新北市三重區正義北路46號"
+    },
+    {
+      "storeId": 111,
+      "shopId": 8,
+      "branchName": "淡水民生",
+      "phone": "02-28096889",
+      "businessHours": "略",
+      "address": "新北市淡水區民生路18號"
+    },
+    {
+      "storeId": 112,
+      "shopId": 8,
+      "branchName": "板橋新民",
+      "phone": "02-29523618",
+      "businessHours": "略",
+      "address": "220新北市板橋區新民街41號"
+    },
+    {
+      "storeId": 113,
+      "shopId": 8,
+      "branchName": "永和樂華",
+      "phone": "02-86600158",
+      "businessHours": "略",
+      "address": "234新北市永和區保平路21號"
+    },
+    {
+      "storeId": 114,
+      "shopId": 9,
+      "branchName": "中和新生店",
+      "phone": "02-22236313",
+      "businessHours": "略",
+      "address": "新北市中和區新生街213號"
+    },
+    {
+      "storeId": 115,
+      "shopId": 9,
+      "branchName": "新店大坪林店(輕食限定店)",
+      "phone": "02-29188289",
+      "businessHours": "略",
+      "address": "新北市新店區民權路23-1號"
+    },
+    {
+      "storeId": 116,
+      "shopId": 9,
+      "branchName": "新莊民安西店",
+      "phone": "02-22072211",
+      "businessHours": "略",
+      "address": "新北市新莊區民安西路153號1樓"
+    },
+    {
+      "storeId": 117,
+      "shopId": 9,
+      "branchName": "新莊中港店",
+      "phone": "02-29929886",
+      "businessHours": "略",
+      "address": "新北市新莊區中港路304號"
+    },
+    {
+      "storeId": 118,
+      "shopId": 9,
+      "branchName": "新莊中平店",
+      "phone": "02-22779101",
+      "businessHours": "略",
+      "address": "新北市新莊區中平路127號"
+    },
+    {
+      "storeId": 119,
+      "shopId": 9,
+      "branchName": "板橋環球店",
+      "phone": "02-89691019",
+      "businessHours": "略",
+      "address": "新北市板橋區縣民大道二段7號B1"
+    },
+    {
+      "storeId": 120,
+      "shopId": 9,
+      "branchName": "板橋重慶店",
+      "phone": "02-29630676",
+      "businessHours": "略",
+      "address": "新北市板橋區重慶路250號"
+    },
+    {
+      "storeId": 121,
+      "shopId": 9,
+      "branchName": "板橋四維店",
+      "phone": "02-22578911",
+      "businessHours": "略",
+      "address": "新北市板橋區四維路284號"
+    },
+    {
+      "storeId": 122,
+      "shopId": 9,
+      "branchName": "樹林金門店",
+      "phone": "02-26826780",
+      "businessHours": "略",
+      "address": "新北市板橋區金門街360號"
+    },
+    {
+      "storeId": 123,
+      "shopId": 9,
+      "branchName": "汐止新台五店",
+      "phone": "02-86423939",
+      "businessHours": "略",
+      "address": "新北市汐止區新台五路一段202號"
+    },
+    {
+      "storeId": 124,
+      "shopId": 9,
+      "branchName": "泰山明志一店",
+      "phone": "02-85315961",
+      "businessHours": "略",
+      "address": "新北市泰山區明志路一段191號"
+    },
+    {
+      "storeId": 125,
+      "shopId": 9,
+      "branchName": "淡水竹圍店",
+      "phone": "02-28085685",
+      "businessHours": "略",
+      "address": "新北市淡水區民權路30號"
+    },
+    {
+      "storeId": 126,
+      "shopId": 9,
+      "branchName": "蘆洲長安店",
+      "phone": "02-22851693",
+      "businessHours": "略",
+      "address": "新北市蘆洲區長安街82號"
+    },
+    {
+      "storeId": 127,
+      "shopId": 10,
+      "branchName": "新埔店",
+      "phone": "02-2256 0360",
+      "businessHours": "11:00 - 21:00",
+      "address": "台灣新北市板橋區民生路三段15號"
+    },
+    {
+      "storeId": 128,
+      "shopId": null,
+      "branchName": "板橋府中門市",
+      "phone": "02-29509066",
+      "businessHours": "略",
+      "address": "新北市板橋區中山路一段38號"
+    },
+    {
+      "storeId": 129,
+      "shopId": 12,
+      "branchName": "三重三和店",
+      "phone": "02-8287-8555",
+      "businessHours": "略",
+      "address": "新北市三重區三和路四段165之7號"
+    },
+    {
+      "storeId": 130,
+      "shopId": 12,
+      "branchName": "三重正義店",
+      "phone": "02-8988-1555",
+      "businessHours": "略",
+      "address": "新北市三重區正義北路22號"
+    },
+    {
+      "storeId": 131,
+      "shopId": 12,
+      "branchName": "中和景安店",
+      "phone": "02-2942-5522",
+      "businessHours": "略",
+      "address": "新北市中和區景安路191號"
+    },
+    {
+      "storeId": 132,
+      "shopId": 12,
+      "branchName": "中和福祥店",
+      "phone": "02-2243-0515",
+      "businessHours": "略",
+      "address": "新北市中和區福祥路5號"
+    },
+    {
+      "storeId": 133,
+      "shopId": 12,
+      "branchName": "永安市場店",
+      "phone": "02-2925-9899",
+      "businessHours": "略",
+      "address": "新北市永和區中和路491號"
+    },
+    {
+      "storeId": 134,
+      "shopId": 12,
+      "branchName": "永和頂溪店",
+      "phone": "02-2927-7730",
+      "businessHours": "略",
+      "address": "新北市永和區永和路二段35號"
+    },
+    {
+      "storeId": 135,
+      "shopId": 12,
+      "branchName": "板橋中山店",
+      "phone": "02-2953-5353",
+      "businessHours": "略",
+      "address": "新北市板橋區中山路一段102號"
+    },
+    {
+      "storeId": 136,
+      "shopId": 12,
+      "branchName": "板橋中正店",
+      "phone": "02-2969-0309",
+      "businessHours": "略",
+      "address": "新北市板橋區中正路231號"
+    },
+    {
+      "storeId": 137,
+      "shopId": 12,
+      "branchName": "板橋江子翠店",
+      "phone": "02-2258-3318",
+      "businessHours": "略",
+      "address": "新北市板橋區文聖街76號"
+    },
+    {
+      "storeId": 138,
+      "shopId": 12,
+      "branchName": "板橋莒光店",
+      "phone": "02-2250-5989",
+      "businessHours": "略",
+      "address": "新北市板橋區莒光路47號"
+    },
+    {
+      "storeId": 139,
+      "shopId": 12,
+      "branchName": "板橋陽明店",
+      "phone": "02-2250-0399",
+      "businessHours": "略",
+      "address": "新北市板橋區陽明街72號"
+    },
+    {
+      "storeId": 140,
+      "shopId": 12,
+      "branchName": "新店寶橋店",
+      "phone": "02-2911-8855",
+      "businessHours": "略",
+      "address": "新北市新店區寶橋路41號1樓"
+    },
+    {
+      "storeId": 141,
+      "shopId": 12,
+      "branchName": "新莊五權店",
+      "phone": "02-2298-9494",
+      "businessHours": "略",
+      "address": "新北市新莊區五權一路40號"
+    },
+    {
+      "storeId": 142,
+      "shopId": 12,
+      "branchName": "新莊新泰店",
+      "phone": "02-2996-0606",
+      "businessHours": "略",
+      "address": "新北市新莊區新泰路40號"
+    },
+    {
+      "storeId": 143,
+      "shopId": 12,
+      "branchName": "蘆洲民族店",
+      "phone": "02-8286-7709",
+      "businessHours": "略",
+      "address": "新北市蘆洲區民族路57號"
+    },
+    {
+      "storeId": 144,
+      "shopId": 13,
+      "branchName": "新莊幸福店",
+      "phone": "02-2991-5529",
+      "businessHours": "略",
+      "address": "新北市新莊區幸福路39號"
+    },
+    {
+      "storeId": 145,
+      "shopId": 13,
+      "branchName": "新莊民安店",
+      "phone": "02-2204-5178",
+      "businessHours": "略",
+      "address": "新北市新莊區民安路178號"
+    },
+    {
+      "storeId": 146,
+      "shopId": 13,
+      "branchName": "板橋四維店",
+      "phone": "02-2255-6885",
+      "businessHours": "略",
+      "address": "新北市板橋區四維路113號"
+    },
+    {
+      "storeId": 147,
+      "shopId": 13,
+      "branchName": "板橋府中店",
+      "phone": "02-2952-6661",
+      "businessHours": "略",
+      "address": "新北市板橋區中山路一段102號"
+    },
+    {
+      "storeId": 148,
+      "shopId": 13,
+      "branchName": "永和樂華店",
+      "phone": "02-2926-4987",
+      "businessHours": "略",
+      "address": "新北市永和區保平路18巷1-1號"
+    },
+    {
+      "storeId": 149,
+      "shopId": 13,
+      "branchName": "中和新生店",
+      "phone": "02-2221-1201",
+      "businessHours": "略",
+      "address": "新北市中和區新生街150號"
+    },
+    {
+      "storeId": 150,
+      "shopId": 14,
+      "branchName": "淡水英專店",
+      "phone": "02-2629-1808",
+      "businessHours": "10：30-22：00",
+      "address": "新北市淡水區英專路77號"
+    },
+    {
+      "storeId": 151,
+      "shopId": 14,
+      "branchName": "板橋民治店",
+      "phone": "02-2252-1111",
+      "businessHours": "11:00-23:00",
+      "address": "新北市板橋區民治街129號"
+    },
+    {
+      "storeId": 152,
+      "shopId": 14,
+      "branchName": "板橋府中店",
+      "phone": "02-2963-0228",
+      "businessHours": "11:00-22:00",
+      "address": "新北市板橋區中山路一段29號1樓"
+    },
+    {
+      "storeId": 153,
+      "shopId": 14,
+      "branchName": "土城海山店",
+      "phone": "02-8262-9979",
+      "businessHours": "一~四10:00~21:00\n五10:00~22:00\n六11:00~22:00\n日11:00~21:00",
+      "address": "土城區裕民路85號1F"
+    },
+    {
+      "storeId": 154,
+      "shopId": 14,
+      "branchName": "土城中央店",
+      "phone": "02-2269-1666",
+      "businessHours": "日～一 11:00-21:00\n二～六 10:00-21:00",
+      "address": "新北市土城區中央路三段72-1號"
+    },
+    {
+      "storeId": 155,
+      "shopId": 14,
+      "branchName": "蘆洲光華店",
+      "phone": "02-8286-8652",
+      "businessHours": "11:00-21:00",
+      "address": "新北市蘆洲區光華路89號"
+    },
+    {
+      "storeId": 156,
+      "shopId": 14,
+      "branchName": "新店大坪林店",
+      "phone": "02-8911-5098",
+      "businessHours": "10:00-21:00",
+      "address": "新北市新店區北新路三段85號"
+    },
+    {
+      "storeId": 157,
+      "shopId": 14,
+      "branchName": "林口文化店",
+      "phone": "02-26090998",
+      "businessHours": "五～六 10：00-22：00\n日～四 10：00-21：00",
+      "address": "新北市林口區文化二路一段62號1樓之1"
+    },
+    {
+      "storeId": 158,
+      "shopId": 14,
+      "branchName": "中和連城店",
+      "phone": "02-2243-8876",
+      "businessHours": "10:00-21:00",
+      "address": "新北市中和區連城路17號"
+    },
+    {
+      "storeId": 159,
+      "shopId": 14,
+      "branchName": "三重正義店",
+      "phone": "02-8985-1100",
+      "businessHours": "10:00-22:00",
+      "address": "新北市三重區正義北路145號"
+    },
+    {
+      "storeId": 160,
+      "shopId": 14,
+      "branchName": "三峽北大店",
+      "phone": "02-8672-1007",
+      "businessHours": "10:00-22:00",
+      "address": "新北市三峽區大學路145號"
+    },
+    {
+      "storeId": 161,
+      "shopId": 14,
+      "branchName": "汐止中興店",
+      "phone": "02-2694-1717",
+      "businessHours": "10:30-21:30",
+      "address": "新北市汐止區中興路204號"
+    },
+    {
+      "storeId": 162,
+      "shopId": 14,
+      "branchName": "新莊輔大店",
+      "phone": "02-2901-3918",
+      "businessHours": "一到五 10:00-21:30\n六 日 11:00-21:30",
+      "address": "新北市新莊區中正路516-34號"
+    },
+    {
+      "storeId": 163,
+      "shopId": 14,
+      "branchName": "樹林站前店",
+      "phone": "02-2682-1717",
+      "businessHours": "10:00-22:00",
+      "address": "新北市樹林區博愛一街36號"
+    },
+    {
+      "storeId": 164,
+      "shopId": 15,
+      "branchName": "板橋府中",
+      "phone": "02-29512620",
+      "businessHours": "10:30–21:30",
+      "address": "新北市板橋區四川路一段6號"
+    },
+    {
+      "storeId": 165,
+      "shopId": 15,
+      "branchName": "中和連城",
+      "phone": "02-22255656",
+      "businessHours": "10:30–18:00 周六周日公休",
+      "address": "新北市中和區連城路381-2號"
+    },
+    {
+      "storeId": 166,
+      "shopId": 16,
+      "branchName": "三重中正北店",
+      "phone": "02-8982-8005",
+      "businessHours": "略",
+      "address": "新北市三重區中正北路362號"
+    },
+    {
+      "storeId": 167,
+      "shopId": 16,
+      "branchName": "自強店",
+      "phone": "02-2980-6452",
+      "businessHours": "略",
+      "address": "新北市三重區自強路一段250號"
+    },
+    {
+      "storeId": 168,
+      "shopId": 16,
+      "branchName": "中和員山店",
+      "phone": "02-2221-6016",
+      "businessHours": "略",
+      "address": "新北市中和區員山路339號"
+    },
+    {
+      "storeId": 169,
+      "shopId": 16,
+      "branchName": "連城店",
+      "phone": "02-2221-9121",
+      "businessHours": "略",
+      "address": "新北市中和區連城路347巷1弄2號"
+    },
+    {
+      "storeId": 170,
+      "shopId": 16,
+      "branchName": "成泰店",
+      "phone": "02-8292-3465",
+      "businessHours": "略",
+      "address": "新北市五股區成泰路二段184號"
+    },
+    {
+      "storeId": 171,
+      "shopId": 16,
+      "branchName": "凌雲店",
+      "phone": "02-8295-3883",
+      "businessHours": "略",
+      "address": "新北市五股區凌雲路一段99號"
+    },
+    {
+      "storeId": 172,
+      "shopId": 16,
+      "branchName": "永和中正店",
+      "phone": "02-8941-6037",
+      "businessHours": "略",
+      "address": "新北市永和區中正路184號"
+    },
+    {
+      "storeId": 173,
+      "shopId": 16,
+      "branchName": "板橋金門店",
+      "phone": "02-2675-8619",
+      "businessHours": "略",
+      "address": "新北市板橋區金門街312號"
+    },
+    {
+      "storeId": 174,
+      "shopId": 16,
+      "branchName": "新店五峰",
+      "phone": "02-2911-3633",
+      "businessHours": "略",
+      "address": "新北市新店區中正路53號"
+    },
+    {
+      "storeId": 175,
+      "shopId": 16,
+      "branchName": "新店北新",
+      "phone": "02-2911-2566",
+      "businessHours": "略",
+      "address": "新北市新店區北新路一段219號"
+    },
+    {
+      "storeId": 176,
+      "shopId": 16,
+      "branchName": "新莊中港店",
+      "phone": "02-2276-9538",
+      "businessHours": "略",
+      "address": "新北市新莊區中港路333號"
+    },
+    {
+      "storeId": 177,
+      "shopId": 16,
+      "branchName": "新莊幸福店",
+      "phone": "02-2279-6697",
+      "businessHours": "略",
+      "address": "新北市新莊區幸福路534號"
+    },
+    {
+      "storeId": 178,
+      "shopId": 16,
+      "branchName": "龍安店",
+      "phone": "02-2204-9489",
+      "businessHours": "略",
+      "address": "新北市新莊區龍安路262號"
+    },
+    {
+      "storeId": 179,
+      "shopId": 16,
+      "branchName": "蘆洲民族2店",
+      "phone": "02-8281-4840",
+      "businessHours": "略",
+      "address": "新北市蘆洲區民族路398號"
+    },
+    {
+      "storeId": 180,
+      "shopId": 16,
+      "branchName": "長安2店",
+      "phone": "02-8282-7023",
+      "businessHours": "略",
+      "address": "新北市蘆洲區長安街359號"
+    },
+    {
+      "storeId": 181,
+      "shopId": null,
+      "branchName": "新北市三重區「三和店」",
+      "phone": "02-22809233",
+      "businessHours": "略",
+      "address": "新北市三重區三和路四段197號"
+    },
+    {
+      "storeId": 182,
+      "shopId": null,
+      "branchName": "新北市三重區「力行店」",
+      "phone": "02-82839559",
+      "businessHours": "略",
+      "address": "新北市三重區力行路二段119號"
+    },
+    {
+      "storeId": 183,
+      "shopId": null,
+      "branchName": "新北市中和區「福美店」",
+      "phone": "02-22455111",
+      "businessHours": "略",
+      "address": "新北市中和區福美路247號"
+    },
+    {
+      "storeId": 184,
+      "shopId": null,
+      "branchName": "新北市中和區「圓通店」",
+      "phone": "02-22462255",
+      "businessHours": "略",
+      "address": "新北市中和區圓通路256號"
+    },
+    {
+      "storeId": 185,
+      "shopId": null,
+      "branchName": "新北市中和區「景安店」",
+      "phone": "02-29451118",
+      "businessHours": "略",
+      "address": "新北市中和區景安路199號"
+    },
+    {
+      "storeId": 186,
+      "shopId": null,
+      "branchName": "新北市永和區「中正店」",
+      "phone": "02-29455118",
+      "businessHours": "略",
+      "address": "新北市中和區自立路187號"
+    },
+    {
+      "storeId": 187,
+      "shopId": null,
+      "branchName": "新北市五股區「凌雲店」",
+      "phone": "02-22936636",
+      "businessHours": "略",
+      "address": "新北市五股區成泰路三段482號"
+    },
+    {
+      "storeId": 188,
+      "shopId": null,
+      "branchName": "新北市五股區「工商店」",
+      "phone": "02-82954587",
+      "businessHours": "略",
+      "address": "新北市五股區工商路96號"
+    },
+    {
+      "storeId": 189,
+      "shopId": null,
+      "branchName": "新北市板橋區「湳雅店」",
+      "phone": "02-22725586",
+      "businessHours": "略",
+      "address": "新北市板橋區南雅南路一段81號"
+    },
+    {
+      "storeId": 190,
+      "shopId": null,
+      "branchName": "新北市板橋區「中山店」",
+      "phone": "02-29642877",
+      "businessHours": "略",
+      "address": "新北市板橋區中山路二段183號"
+    },
+    {
+      "storeId": 191,
+      "shopId": null,
+      "branchName": "新北市板橋區「三民店」",
+      "phone": "02-29539292",
+      "businessHours": "略",
+      "address": "新北市板橋區三民路二段102巷1號"
+    },
+    {
+      "storeId": 192,
+      "shopId": null,
+      "branchName": "新北市新店區「北新店」",
+      "phone": "02-29113966",
+      "businessHours": "略",
+      "address": "新北市新店區北新路三段62號"
+    },
+    {
+      "storeId": 193,
+      "shopId": null,
+      "branchName": "新北市新莊區「新豐店」",
+      "phone": "02-22048133",
+      "businessHours": "略",
+      "address": "新北市新莊區新泰路79號"
+    },
+    {
+      "storeId": 194,
+      "shopId": null,
+      "branchName": "新北市蘆洲區「民族店」",
+      "phone": "02-22882621",
+      "businessHours": "略",
+      "address": "新北市蘆洲區民族路208號"
+    },
+    {
+      "storeId": 195,
+      "shopId": null,
+      "branchName": "新北市蘆洲區「中華店」",
+      "phone": "02-22830707",
+      "businessHours": "略",
+      "address": "新北市蘆洲區中華街25-1號"
+    },
+    {
+      "storeId": 196,
+      "shopId": 18,
+      "branchName": "永和竹林店",
+      "phone": "02-89213148",
+      "businessHours": "AM10:00-PM10:30",
+      "address": "新北市永和區竹林路89號"
+    },
+    {
+      "storeId": 197,
+      "shopId": 18,
+      "branchName": "內湖成功店",
+      "phone": "02-87928815",
+      "businessHours": "AM9:00-PM9:00",
+      "address": "新北市內湖區成功路四段30巷8號"
+    },
+    {
+      "storeId": 198,
+      "shopId": 18,
+      "branchName": "三重集美店",
+      "phone": "02-23682710",
+      "businessHours": "AM10:00-PM9:00",
+      "address": "新北市三重區集美街161號"
+    },
+    {
+      "storeId": 199,
+      "shopId": 18,
+      "branchName": "新北中和店",
+      "phone": "02-22466996",
+      "businessHours": "AM10:30-PM10:00",
+      "address": "新北市中和區連城路25號"
+    },
+    {
+      "storeId": 200,
+      "shopId": 18,
+      "branchName": "板橋亞東店",
+      "phone": "02-89660319",
+      "businessHours": "AM10:30-PM10:00",
+      "address": "新北市板橋區四川路二段47巷1弄1號1樓"
+    },
+    {
+      "storeId": 201,
+      "shopId": 18,
+      "branchName": "板橋四維旗艦店",
+      "phone": "02-22540508",
+      "businessHours": "AM10:30-PM10:00",
+      "address": "新北市板橋區四維路123號"
+    },
+    {
+      "storeId": 202,
+      "shopId": 18,
+      "branchName": "新莊中華旗艦店",
+      "phone": "02-27325601",
+      "businessHours": "AM10:30-PM9:00",
+      "address": "新北市新莊區中華路一段28號"
+    }
+  ],
+  "latestNews": [
+    {
+      "id": 1,
+      "title": "新品上市",
+      "content": "詳細內容",
+      "shopId": 1
+    }
+  ],
+  "shopTags": [
+    {
+      "id": 1,
+      "name": "人氣"
+    }
+  ],
+  "members": [
+    {
+      "id": 1,
+      "username": "john",
+      "email": "john@email.com",
+      "drinkCollectionIds": [1],
+      "shopCollectionIds": [1]
+    }
+  ],
+  "memberDrinkCollections": [
+    {
+      "id": 1,
+      "memberId": 1,
+      "drinkId": 1
+    }
+  ],
+  "memberShopCollections": [
+    {
+      "id": 1,
+      "memberId": 1,
+      "shopId": 1
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": 1,
+      "memberId": 1,
+      "content": "這家店很好",
+      "rating": 5
     }
   ]
 }
