@@ -1956,278 +1956,274 @@
   ],
   "drinks": [
     {
-      "drinks": [
-        {
-          "id": 1,
-          "DrinkName": "芒果冰沙",
-          "TeaType": "鮮果汁",
-          "Ingredients": "",
-          "Description": "這杯絕對是大苑子菜單的首選推薦！以真材實料愛文芒果果肉新鮮現打，呈現出芒果天然香氣，與沁涼冰沙完美結合，每一口都是濃濃芒果香，等了一年，芒果控絕對要把握時間喝好喝滿！",
-          "StoreName": "大苑子",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-01.png"
-        },
-        {
-          "id": 2,
-          "DrinkName": "愛文翡翠",
-          "TeaType": "綠茶",
-          "Ingredients": "",
-          "Description": "喜愛清爽系飲品的人大苑子菜單推薦來一杯「愛文翡翠」，以甘醇的茉莉綠茶為基底，搭配新鮮芒果，果香與茶香帶出透心涼的清爽滋味，飯後來一杯解膩剛剛好！",
-          "StoreName": "大苑子",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-02.png"
-        },
-        {
-          "id": 3,
-          "DrinkName": "芝芝錫蘭紅茶",
-          "TeaType": "紅茶",
-          "Ingredients": "",
-          "Description": "以黃金比例的SGS認證錫蘭紅茶，結合由喜馬拉雅山玫瑰鹽與紐西蘭起司製成的濃郁芝芝，鹹香創造多層次口感，香甜又順口。",
-          "StoreName": "麻古茶坊",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-03.png"
-        },
-        {
-          "id": 4,
-          "DrinkName": "梅子冰茶",
-          "TeaType": "鮮果汁",
-          "Ingredients": "",
-          "Description": "以慢熬的香濃梅汁為基底，搭配新鮮的檸檬原汁，鹹酸的甜梅汁帶出檸檬的清香，最後加上2顆醃漬梅粒點綴，酸甜帶點鹹口感，是消暑、開胃最佳選擇。",
-          "StoreName": "麻古茶坊",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-04.png"
-        },
-        {
-          "id": 5,
-          "DrinkName": "伯爵紅茶拿鐵",
-          "TeaType": "奶茶",
-          "Ingredients": "",
-          "Description": "有著特殊佛手柑果香的伯爵紅茶搭配綠光鮮奶，茶香濃郁口感醇厚。",
-          "StoreName": "迷客夏",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-05.png"
-        },
-        {
-          "id": 6,
-          "DrinkName": "五桐茶",
-          "TeaType": "烏龍茶",
-          "Ingredients": "",
-          "Description": "使用獨家秘制五種茶葉沖煮的「五桐茶」，醇厚回甘、帶有焙火香氣的迷人茶韻",
-          "StoreName": "五桐號",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-06.png"
-        },
-        {
-          "id": 7,
-          "DrinkName": "桂花烏龍凍飲",
-          "TeaType": "烏龍茶",
-          "Ingredients": "",
-          "Description": "中焙烏龍茶製成金黃茶湯，配搭醇茶手工製作的Q彈茶凍，以淡雅清香的桂花蜜點綴，喝起來清甜不膩。",
-          "StoreName": "五桐號",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-07.png"
-        },
-        {
-          "id": 8,
-          "DrinkName": "老實人紅茶",
-          "TeaType": "紅茶",
-          "Ingredients": "",
-          "Description": "中杯（約 500 ml）：總熱量 153 大卡，總糖量 36 克。大杯（約 700 ml）：總熱量 199 大卡，總糖量 47 克。本品咖啡因含量 23.4 毫克（mg/100ml）。咖啡因每日攝取限量 300 毫克。孩童及孕哺婦請斟酌食用。總熱量、總糖量及咖啡因含量皆以最高值標示。紅茶茶葉產地為印度/斯里蘭卡。",
-          "StoreName": "五桐號",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-08.png"
-        },
-        {
-          "id": 9,
-          "DrinkName": "四季春+珍波椰",
-          "TeaType": "",
-          "Ingredients": "珍珠、波霸、椰果",
-          "Description": "又稱1號，四季春青茶加上珍珠、波霸及椰果，一次能吃到三種料，解膩又有飽足感，咀嚼系必嚐！",
-          "StoreName": "50嵐",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-09.png"
-        },
-        {
-          "id": 10,
-          "DrinkName": "海神",
-          "TeaType": "鮮果汁",
-          "Ingredients": "",
-          "Description": "以清爽日式煎茶調製,採用蜂蜜醃製過的水果搭配茶葉烘製，具有水果香氣帶有淡淡蜜香的黃金茶湯如海波動，獨創茶的神話。",
-          "StoreName": "COMEBUY",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-10.png"
-        },
-        {
-          "id": 11,
-          "DrinkName": "紅茶拿鐵",
-          "TeaType": "奶茶",
-          "Ingredients": "",
-          "Description": "現泡烏瓦紅茶加上香醇鮮乳調製而成，濃郁茶香略帶花香，更增添鮮乳的香甜，是愛好奶茶且注重健康的首選。",
-          "StoreName": "COMEBUY",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-11.png"
-        },
-        {
-          "id": 12,
-          "DrinkName": "老賴紅茶",
-          "TeaType": "紅茶",
-          "Ingredients": "",
-          "Description": "香氣與茶底兼具，特選南投好茶，採用台糖的二號砂糖，提升紅茶的香氣與濃度，喝起來更有一番古早味。",
-          "StoreName": "老賴茶棧",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-12.png"
-        },
-        {
-          "id": 13,
-          "DrinkName": "冬瓜檸檬",
-          "TeaType": "冬瓜茶\r\n鮮果汁",
-          "Ingredients": "",
-          "Description": "檸檬與冬瓜茶的完美結合，特別推薦給討厭炎熱天氣的您。",
-          "StoreName": "老賴茶棧",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-13.png"
-        },
-        {
-          "id": 14,
-          "DrinkName": "檸檬春烏龍",
-          "TeaType": "烏龍茶\r\n鮮果汁",
-          "Ingredients": "",
-          "Description": "使用每日現榨的屏東九如新鮮檸檬原汁，配上完美比例的「春烏龍」，喝得到烏龍的清甜，又帶有檸檬的酸香，清爽解膩無負擔」",
-          "StoreName": "得正",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-14.png"
-        },
-        {
-          "id": 15,
-          "DrinkName": "芝士奶蓋春烏龍",
-          "TeaType": "烏龍茶",
-          "Ingredients": "奶蓋",
-          "Description": "厚實綿密的鹹奶蓋，加上「春烏龍」茶香，溫潤順口且不苦澀，雖然是芝士但完全不會膩口，而且喝完鼻腔會有烏龍茶的餘韻香氣",
-          "StoreName": "得正",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-15.png"
-        },
-        {
-          "id": 16,
-          "DrinkName": "觀音拿鐵",
-          "TeaType": "奶茶",
-          "Ingredients": "",
-          "Description": "將鐵觀音的硬頸與鮮奶的溫良交疊出一種不可思議的纏綿。用豐純濃綿的鮮奶做基底，前香甜蜜不膩，後韻是耐人尋味的觀音焙韻，每一口都扣人心弦無法忘懷。",
-          "StoreName": "茶湯會",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-16.png"
-        },
-        {
-          "id": 17,
-          "DrinkName": "海鹽奶蓋琥珀烏龍",
-          "TeaType": "烏龍茶",
-          "Ingredients": "奶蓋",
-          "Description": "琥珀茶前段果香明顯，後段發沉韻。加了奶蓋?出更多層次感。你追求且享受寧靜。對生活有責任感，懂得安排自己的事業。個性小悶騷，害羞又想表現。",
-          "StoreName": "抿茶",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-17.png"
-        },
-        {
-          "id": 18,
-          "DrinkName": "麥湯拿鐵",
-          "TeaType": "麥茶\r\n奶茶",
-          "Ingredients": "",
-          "Description": "使用我們招牌御用鮮乳，特有重乳香，味道香醇奶香濃，搭配熟識燻茶中的麥茶，有著濃郁大麥香氣。",
-          "StoreName": "双十八木",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-18.png"
-        },
-        {
-          "id": 19,
-          "DrinkName": "小時候秘密",
-          "TeaType": "牛奶\r\n鮮果汁",
-          "Ingredients": "",
-          "Description": "金蘋果牛奶搭配乳酸菌， 清甜蘋果香，順口不甜膩。",
-          "StoreName": "双十八木",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-19.png"
-        },
-        {
-          "id": 20,
-          "DrinkName": "新南黑糖牛乳",
-          "TeaType": "牛奶",
-          "Ingredients": "",
-          "Description": "嚴選來自台南獨家製糖秘方，製作出最正宗的濃、醇、香，整杯不加一滴水，只有黑糖跟牛乳，而濃郁的黑糖焦香伴隨著牛乳香氣，讓人有種喝布丁奶茶的錯覺，真的非常好喝，喜愛黑糖牛奶的人一定要試試這杯！",
-          "StoreName": "双十八木",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-20.png"
-        },
-        {
-          "id": 21,
-          "DrinkName": "春芽冷露",
-          "TeaType": "冬瓜茶\r\n綠茶",
-          "Ingredients": "",
-          "Description": "春芽冷露是一股耐人尋味的質感，如同愛好茶酒和詩詞的阿伯。冬瓜陳年的尾韻，於茶葉清甜圓潤的餘韻下回甘，兩者所釋放的渾厚香氣，尋尋覓覓使人意猶未盡，適合與文學一同啜飲。",
-          "StoreName": "可不可",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-21.png"
-        },
-        {
-          "id": 22,
-          "DrinkName": "熟成歐蕾",
-          "TeaType": "紅茶\r\n牛奶",
-          "Ingredients": "",
-          "Description": "渲染漸變的茶色，猶如街頭嬉皮風趣的男子，口中恣意地哼著音階。濃郁的紅茶香，本是味覺記憶中的絕品，與溫順甘醇的鮮奶兩相平衡，為奶茶的底蘊更添一股味蕾衝擊，絲滑細膩使人覺醒。",
-          "StoreName": "可不可",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-22.png"
-        },
-        {
-          "id": 23,
-          "DrinkName": "桂花凍胭脂紅玉",
-          "TeaType": "紅茶",
-          "Ingredients": "",
-          "Description": "台茶十八號-紅玉紅茶，滋味濃醇鮮爽，帶有淡淡肉桂及薄荷香氣，有台灣香之美譽，搭配清新淡雅口感滑嫩的自製桂花凍。",
-          "StoreName": "烏弄",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-23.png"
-        },
-        {
-          "id": 24,
-          "DrinkName": "黑糖珍珠鮮奶",
-          "TeaType": "奶茶",
-          "Ingredients": "珍珠",
-          "Description": "蟬聯銷售排行榜第一，代表性0.85cm祖傳黑糖蜜製珍珠加上香濃鮮奶，完美交融，香濃不膩",
-          "StoreName": "珍煮丹",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-24.png"
-        },
-        {
-          "id": 25,
-          "DrinkName": "乳酪奶蓋茶(金烏)",
-          "TeaType": "烏龍茶",
-          "Ingredients": "奶蓋",
-          "Description": "獨家特有的焦糖乳酪奶蓋、上頭搭配著Oreo碎片、香甜滑順的口感讓你一喝就上癮",
-          "StoreName": "曼士茶",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-25.png"
-        },
-        {
-          "id": 26,
-          "DrinkName": "奶茶三兄弟",
-          "TeaType": "奶茶",
-          "Ingredients": "珍珠 \r\n仙草 \r\n布丁",
-          "Description": "香濃奶茶搭配布丁、珍珠及仙草，一次就有三種口感",
-          "StoreName": "CoCo都可",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-26.png"
-        },
-        {
-          "id": 27,
-          "DrinkName": "烏龍綠茶",
-          "TeaType": "烏龍茶\r\n綠茶",
-          "Ingredients": "",
-          "Description": "澄澈的黃褐色茶湯，入口清新芳香、甘醇渾厚，微有炭燒味，回甘馥郁而綿長。",
-          "StoreName": "清心",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-27.png"
-        },
-        {
-          "id": 28,
-          "DrinkName": "烏龍奶茶",
-          "TeaType": "烏龍茶\r\n奶茶",
-          "Ingredients": "",
-          "Description": "甘醇渾厚的「烏龍綠茶」佐醇正香濃的「嚴選奶精」，茶味與奶香完美交融整合。",
-          "StoreName": "清心",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-28.png"
-        },
-        {
-          "id": 29,
-          "DrinkName": "凍春山",
-          "TeaType": "烏龍茶\r\n鮮果汁",
-          "Ingredients": "",
-          "Description": "凍頂烏龍、春芽金桔、招財蘋果、黃金柳橙、數錢百香、水晶蘆薈多 C 開運飲茶香品果物！",
-          "StoreName": "武林茶",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-29.png"
-        },
-        {
-          "id": 30,
-          "DrinkName": "衫夏露甘蔗青",
-          "TeaType": "鮮果汁",
-          "Ingredients": "",
-          "Description": "高山青茶及 100％ 白甘蔗汁",
-          "StoreName": "武林茶",
-          "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-30.png"
-        }
-      ]
+      "id": 1,
+      "DrinkName": "芒果冰沙",
+      "TeaType": "鮮果汁",
+      "Ingredients": "",
+      "Description": "這杯絕對是大苑子菜單的首選推薦！以真材實料愛文芒果果肉新鮮現打，呈現出芒果天然香氣，與沁涼冰沙完美結合，每一口都是濃濃芒果香，等了一年，芒果控絕對要把握時間喝好喝滿！",
+      "StoreName": "大苑子",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-01.png"
+    },
+    {
+      "id": 2,
+      "DrinkName": "愛文翡翠",
+      "TeaType": "綠茶",
+      "Ingredients": "",
+      "Description": "喜愛清爽系飲品的人大苑子菜單推薦來一杯「愛文翡翠」，以甘醇的茉莉綠茶為基底，搭配新鮮芒果，果香與茶香帶出透心涼的清爽滋味，飯後來一杯解膩剛剛好！",
+      "StoreName": "大苑子",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-02.png"
+    },
+    {
+      "id": 3,
+      "DrinkName": "芝芝錫蘭紅茶",
+      "TeaType": "紅茶",
+      "Ingredients": "",
+      "Description": "以黃金比例的SGS認證錫蘭紅茶，結合由喜馬拉雅山玫瑰鹽與紐西蘭起司製成的濃郁芝芝，鹹香創造多層次口感，香甜又順口。",
+      "StoreName": "麻古茶坊",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-03.png"
+    },
+    {
+      "id": 4,
+      "DrinkName": "梅子冰茶",
+      "TeaType": "鮮果汁",
+      "Ingredients": "",
+      "Description": "以慢熬的香濃梅汁為基底，搭配新鮮的檸檬原汁，鹹酸的甜梅汁帶出檸檬的清香，最後加上2顆醃漬梅粒點綴，酸甜帶點鹹口感，是消暑、開胃最佳選擇。",
+      "StoreName": "麻古茶坊",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-04.png"
+    },
+    {
+      "id": 5,
+      "DrinkName": "伯爵紅茶拿鐵",
+      "TeaType": "奶茶",
+      "Ingredients": "",
+      "Description": "有著特殊佛手柑果香的伯爵紅茶搭配綠光鮮奶，茶香濃郁口感醇厚。",
+      "StoreName": "迷客夏",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-05.png"
+    },
+    {
+      "id": 6,
+      "DrinkName": "五桐茶",
+      "TeaType": "烏龍茶",
+      "Ingredients": "",
+      "Description": "使用獨家秘制五種茶葉沖煮的「五桐茶」，醇厚回甘、帶有焙火香氣的迷人茶韻",
+      "StoreName": "五桐號",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-06.png"
+    },
+    {
+      "id": 7,
+      "DrinkName": "桂花烏龍凍飲",
+      "TeaType": "烏龍茶",
+      "Ingredients": "",
+      "Description": "中焙烏龍茶製成金黃茶湯，配搭醇茶手工製作的Q彈茶凍，以淡雅清香的桂花蜜點綴，喝起來清甜不膩。",
+      "StoreName": "五桐號",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-07.png"
+    },
+    {
+      "id": 8,
+      "DrinkName": "老實人紅茶",
+      "TeaType": "紅茶",
+      "Ingredients": "",
+      "Description": "中杯（約 500 ml）：總熱量 153 大卡，總糖量 36 克。大杯（約 700 ml）：總熱量 199 大卡，總糖量 47 克。本品咖啡因含量 23.4 毫克（mg/100ml）。咖啡因每日攝取限量 300 毫克。孩童及孕哺婦請斟酌食用。總熱量、總糖量及咖啡因含量皆以最高值標示。紅茶茶葉產地為印度/斯里蘭卡。",
+      "StoreName": "五桐號",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-08.png"
+    },
+    {
+      "id": 9,
+      "DrinkName": "四季春+珍波椰",
+      "TeaType": "",
+      "Ingredients": "珍珠、波霸、椰果",
+      "Description": "又稱1號，四季春青茶加上珍珠、波霸及椰果，一次能吃到三種料，解膩又有飽足感，咀嚼系必嚐！",
+      "StoreName": "50嵐",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-09.png"
+    },
+    {
+      "id": 10,
+      "DrinkName": "海神",
+      "TeaType": "鮮果汁",
+      "Ingredients": "",
+      "Description": "以清爽日式煎茶調製,採用蜂蜜醃製過的水果搭配茶葉烘製，具有水果香氣帶有淡淡蜜香的黃金茶湯如海波動，獨創茶的神話。",
+      "StoreName": "COMEBUY",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-10.png"
+    },
+    {
+      "id": 11,
+      "DrinkName": "紅茶拿鐵",
+      "TeaType": "奶茶",
+      "Ingredients": "",
+      "Description": "現泡烏瓦紅茶加上香醇鮮乳調製而成，濃郁茶香略帶花香，更增添鮮乳的香甜，是愛好奶茶且注重健康的首選。",
+      "StoreName": "COMEBUY",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-11.png"
+    },
+    {
+      "id": 12,
+      "DrinkName": "老賴紅茶",
+      "TeaType": "紅茶",
+      "Ingredients": "",
+      "Description": "香氣與茶底兼具，特選南投好茶，採用台糖的二號砂糖，提升紅茶的香氣與濃度，喝起來更有一番古早味。",
+      "StoreName": "老賴茶棧",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-12.png"
+    },
+    {
+      "id": 13,
+      "DrinkName": "冬瓜檸檬",
+      "TeaType": "冬瓜茶\r\n鮮果汁",
+      "Ingredients": "",
+      "Description": "檸檬與冬瓜茶的完美結合，特別推薦給討厭炎熱天氣的您。",
+      "StoreName": "老賴茶棧",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-13.png"
+    },
+    {
+      "id": 14,
+      "DrinkName": "檸檬春烏龍",
+      "TeaType": "烏龍茶\r\n鮮果汁",
+      "Ingredients": "",
+      "Description": "使用每日現榨的屏東九如新鮮檸檬原汁，配上完美比例的「春烏龍」，喝得到烏龍的清甜，又帶有檸檬的酸香，清爽解膩無負擔」",
+      "StoreName": "得正",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-14.png"
+    },
+    {
+      "id": 15,
+      "DrinkName": "芝士奶蓋春烏龍",
+      "TeaType": "烏龍茶",
+      "Ingredients": "奶蓋",
+      "Description": "厚實綿密的鹹奶蓋，加上「春烏龍」茶香，溫潤順口且不苦澀，雖然是芝士但完全不會膩口，而且喝完鼻腔會有烏龍茶的餘韻香氣",
+      "StoreName": "得正",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-15.png"
+    },
+    {
+      "id": 16,
+      "DrinkName": "觀音拿鐵",
+      "TeaType": "奶茶",
+      "Ingredients": "",
+      "Description": "將鐵觀音的硬頸與鮮奶的溫良交疊出一種不可思議的纏綿。用豐純濃綿的鮮奶做基底，前香甜蜜不膩，後韻是耐人尋味的觀音焙韻，每一口都扣人心弦無法忘懷。",
+      "StoreName": "茶湯會",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-16.png"
+    },
+    {
+      "id": 17,
+      "DrinkName": "海鹽奶蓋琥珀烏龍",
+      "TeaType": "烏龍茶",
+      "Ingredients": "奶蓋",
+      "Description": "琥珀茶前段果香明顯，後段發沉韻。加了奶蓋?出更多層次感。你追求且享受寧靜。對生活有責任感，懂得安排自己的事業。個性小悶騷，害羞又想表現。",
+      "StoreName": "抿茶",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-17.png"
+    },
+    {
+      "id": 18,
+      "DrinkName": "麥湯拿鐵",
+      "TeaType": "麥茶\r\n奶茶",
+      "Ingredients": "",
+      "Description": "使用我們招牌御用鮮乳，特有重乳香，味道香醇奶香濃，搭配熟識燻茶中的麥茶，有著濃郁大麥香氣。",
+      "StoreName": "双十八木",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-18.png"
+    },
+    {
+      "id": 19,
+      "DrinkName": "小時候秘密",
+      "TeaType": "牛奶\r\n鮮果汁",
+      "Ingredients": "",
+      "Description": "金蘋果牛奶搭配乳酸菌， 清甜蘋果香，順口不甜膩。",
+      "StoreName": "双十八木",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-19.png"
+    },
+    {
+      "id": 20,
+      "DrinkName": "新南黑糖牛乳",
+      "TeaType": "牛奶",
+      "Ingredients": "",
+      "Description": "嚴選來自台南獨家製糖秘方，製作出最正宗的濃、醇、香，整杯不加一滴水，只有黑糖跟牛乳，而濃郁的黑糖焦香伴隨著牛乳香氣，讓人有種喝布丁奶茶的錯覺，真的非常好喝，喜愛黑糖牛奶的人一定要試試這杯！",
+      "StoreName": "双十八木",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-20.png"
+    },
+    {
+      "id": 21,
+      "DrinkName": "春芽冷露",
+      "TeaType": "冬瓜茶\r\n綠茶",
+      "Ingredients": "",
+      "Description": "春芽冷露是一股耐人尋味的質感，如同愛好茶酒和詩詞的阿伯。冬瓜陳年的尾韻，於茶葉清甜圓潤的餘韻下回甘，兩者所釋放的渾厚香氣，尋尋覓覓使人意猶未盡，適合與文學一同啜飲。",
+      "StoreName": "可不可",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-21.png"
+    },
+    {
+      "id": 22,
+      "DrinkName": "熟成歐蕾",
+      "TeaType": "紅茶\r\n牛奶",
+      "Ingredients": "",
+      "Description": "渲染漸變的茶色，猶如街頭嬉皮風趣的男子，口中恣意地哼著音階。濃郁的紅茶香，本是味覺記憶中的絕品，與溫順甘醇的鮮奶兩相平衡，為奶茶的底蘊更添一股味蕾衝擊，絲滑細膩使人覺醒。",
+      "StoreName": "可不可",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-22.png"
+    },
+    {
+      "id": 23,
+      "DrinkName": "桂花凍胭脂紅玉",
+      "TeaType": "紅茶",
+      "Ingredients": "",
+      "Description": "台茶十八號-紅玉紅茶，滋味濃醇鮮爽，帶有淡淡肉桂及薄荷香氣，有台灣香之美譽，搭配清新淡雅口感滑嫩的自製桂花凍。",
+      "StoreName": "烏弄",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-23.png"
+    },
+    {
+      "id": 24,
+      "DrinkName": "黑糖珍珠鮮奶",
+      "TeaType": "奶茶",
+      "Ingredients": "珍珠",
+      "Description": "蟬聯銷售排行榜第一，代表性0.85cm祖傳黑糖蜜製珍珠加上香濃鮮奶，完美交融，香濃不膩",
+      "StoreName": "珍煮丹",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-24.png"
+    },
+    {
+      "id": 25,
+      "DrinkName": "乳酪奶蓋茶(金烏)",
+      "TeaType": "烏龍茶",
+      "Ingredients": "奶蓋",
+      "Description": "獨家特有的焦糖乳酪奶蓋、上頭搭配著Oreo碎片、香甜滑順的口感讓你一喝就上癮",
+      "StoreName": "曼士茶",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-25.png"
+    },
+    {
+      "id": 26,
+      "DrinkName": "奶茶三兄弟",
+      "TeaType": "奶茶",
+      "Ingredients": "珍珠 \r\n仙草 \r\n布丁",
+      "Description": "香濃奶茶搭配布丁、珍珠及仙草，一次就有三種口感",
+      "StoreName": "CoCo都可",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-26.png"
+    },
+    {
+      "id": 27,
+      "DrinkName": "烏龍綠茶",
+      "TeaType": "烏龍茶\r\n綠茶",
+      "Ingredients": "",
+      "Description": "澄澈的黃褐色茶湯，入口清新芳香、甘醇渾厚，微有炭燒味，回甘馥郁而綿長。",
+      "StoreName": "清心",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-27.png"
+    },
+    {
+      "id": 28,
+      "DrinkName": "烏龍奶茶",
+      "TeaType": "烏龍茶\r\n奶茶",
+      "Ingredients": "",
+      "Description": "甘醇渾厚的「烏龍綠茶」佐醇正香濃的「嚴選奶精」，茶味與奶香完美交融整合。",
+      "StoreName": "清心",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-28.png"
+    },
+    {
+      "id": 29,
+      "DrinkName": "凍春山",
+      "TeaType": "烏龍茶\r\n鮮果汁",
+      "Ingredients": "",
+      "Description": "凍頂烏龍、春芽金桔、招財蘋果、黃金柳橙、數錢百香、水晶蘆薈多 C 開運飲茶香品果物！",
+      "StoreName": "武林茶",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-29.png"
+    },
+    {
+      "id": 30,
+      "DrinkName": "衫夏露甘蔗青",
+      "TeaType": "鮮果汁",
+      "Ingredients": "",
+      "Description": "高山青茶及 100％ 白甘蔗汁",
+      "StoreName": "武林茶",
+      "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-30.png"
     }
   ]
 }
