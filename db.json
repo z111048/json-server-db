@@ -1923,27 +1923,45 @@
       "name": "人氣"
     }
   ],
-  "members": [
+  "users": [
     {
       "id": 1,
       "username": "john",
-      "email": "john@email.com",
-      "drinkCollectionIds": [1],
-      "shopCollectionIds": [1]
+      "email": "john@email.com"
     }
   ],
-  "memberDrinkCollections": [
+  "userDrinkCollections": [
     {
       "id": 1,
-      "memberId": 1,
-      "drinkId": 1
+      "userId": 1,
+      "drinkId": 2
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "drinkId": 4
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "drinkId": 6
     }
   ],
-  "memberShopCollections": [
+  "userShopCollections": [
     {
       "id": 1,
-      "memberId": 1,
+      "userId": 1,
       "shopId": 1
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "shopId": 3
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "shopId": 5
     }
   ],
   "feedbacks": [
