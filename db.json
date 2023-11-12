@@ -4051,7 +4051,7 @@
     {
       "id": 9,
       "DrinkName": "四季春+珍波椰",
-      "TeaType": [],
+      "TeaType": ["烏龍茶"],
       "Ingredients": ["珍珠", "波霸", "椰果"],
       "Description": "又稱1號，四季春青茶加上珍珠、波霸及椰果，一次能吃到三種料，解膩又有飽足感，咀嚼系必嚐！",
       "StoreName": "50嵐",
@@ -4069,7 +4069,7 @@
     {
       "id": 11,
       "DrinkName": "紅茶拿鐵",
-      "TeaType": [],
+      "TeaType": ["紅茶", "牛奶"],
       "Ingredients": [],
       "Description": "現泡烏瓦紅茶加上香醇鮮乳調製而成，濃郁茶香略帶花香，更增添鮮乳的香甜，是愛好奶茶且注重健康的首選。",
       "StoreName": "COMEBUY",
@@ -4078,7 +4078,7 @@
     {
       "id": 12,
       "DrinkName": "老賴紅茶",
-      "TeaType": [],
+      "TeaType": ["紅茶"],
       "Ingredients": [],
       "Description": "香氣與茶底兼具，特選南投好茶，採用台糖的二號砂糖，提升紅茶的香氣與濃度，喝起來更有一番古早味。",
       "StoreName": "老賴茶棧",
@@ -4114,7 +4114,7 @@
     {
       "id": 16,
       "DrinkName": "觀音拿鐵",
-      "TeaType": ["奶茶"],
+      "TeaType": ["烏龍茶", "牛奶"],
       "Ingredients": [],
       "Description": "將鐵觀音的硬頸與鮮奶的溫良交疊出一種不可思議的纏綿。用豐純濃綿的鮮奶做基底，前香甜蜜不膩，後韻是耐人尋味的觀音焙韻，每一口都扣人心弦無法忘懷。",
       "StoreName": "茶湯會",
@@ -4132,7 +4132,7 @@
     {
       "id": 18,
       "DrinkName": "麥湯拿鐵",
-      "TeaType": ["麥茶", "奶茶"],
+      "TeaType": ["麥茶", "牛奶"],
       "Ingredients": [],
       "Description": "使用我們招牌御用鮮乳，特有重乳香，味道香醇奶香濃，搭配熟識燻茶中的麥茶，有著濃郁大麥香氣。",
       "StoreName": "双十八木",
@@ -4186,7 +4186,7 @@
     {
       "id": 24,
       "DrinkName": "黑糖珍珠鮮奶",
-      "TeaType": ["奶茶"],
+      "TeaType": ["牛奶"],
       "Ingredients": ["珍珠"],
       "Description": "蟬聯銷售排行榜第一，代表性0.85cm祖傳黑糖蜜製珍珠加上香濃鮮奶，完美交融，香濃不膩",
       "StoreName": "珍煮丹",
