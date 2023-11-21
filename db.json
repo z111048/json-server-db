@@ -4010,8 +4010,8 @@
     {
       "id": 1,
       "memberId": 1,
-      "content": "這家店很好",
-      "rating": 5
+      "category": "",
+      "content": ""
     }
   ],
   "drinks": [
