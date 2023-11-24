@@ -4091,7 +4091,7 @@
       "id": 9,
       "DrinkName": "四季春+珍波椰",
       "TeaType": ["烏龍茶"],
-      "Ingredients": ["珍珠", "波霸", "椰果"],
+      "Ingredients": ["珍珠", "椰果"],
       "Description": "四季春青茶加珍珠、波霸、椰果，三種料合一，解膩又飽足，咀嚼感十足。",
       "StoreName": "50嵐",
       "ImageLink": "https://raw.githubusercontent.com/ahmomoz/WhatDrink17/main/assets/images/drinks/drink-09.png"
